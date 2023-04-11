@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(0, 0, 0);
+    font-family: arial;
+    color:white;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+.fightarea {
+    display: flex;
+    gap: 20px;
+   
+}
+
+#char,
+#monster {
+    flex:1;
+   
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: rgb(254 21 138);
+    border-radius: 5px;
+    
+    
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll; 
+}
+
+.name{
+    
+    color:#ffffff;
+    font-size: 18px;
+    
+}
+
+.attackButton {
+    width: 100px;
+    background-color: #fefefe;
+    color: rgb(210, 210, 210);
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
